@@ -1,0 +1,82 @@
+img {
+    max-width: 100%;
+}
+input,button:focus {
+    outline: none!important
+}
+.bg {
+    background: url(img/bg.png) center no-repeat;
+    background-size: cover;
+}
+.title {
+    color: #525252;
+    font-size: 21px;
+    padding-top: 90px;
+    font-weight: 400;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.title-span {
+    font-weight: 600;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2);
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.form__title {
+    color: #464646;
+    font-size: 22px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 600;
+    padding-top: 34px;
+}
+.form__subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #919191;
+    font-size: 14px;
+}
+.line {
+    margin-top: 20px;
+    width: 100%;
+    height:2px;
+    background-color: #e4e4e4;
+}
+.form__text {
+    color: #989898;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form__block {
+    padding-top: 25px;
+}
+.form__input {
+    border: 2px solid #e2e2e2;
+    border-radius:5px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.form__input:focus {
+    border: 1px solid #30b0e2;
+    box-shadow: 0 0 2px 2px #30b0e2;
+}
+.form__btn {
+    padding-left: 40px;
+    padding-top: 5px; 
+    padding-right: 40px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #009bc9;
+    background-color: #40c7ea;
+    color: #132e34;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.form__btn:hover {
+    background-color: #009bc9;
+    transition: all 0.5s linear;
+}
